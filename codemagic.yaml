@@ -8,7 +8,7 @@ workflows:
       unity: 2022.3.19f1
       ios_signing:
         distribution_type: app_store
-        bundle_identifier: om.gmbxpth.app499
+        bundle_identifier: com.gmbxpth.app499
       groups:
         - unity_credentials
       vars:
@@ -16,7 +16,7 @@ workflows:
         XCODE_PROJECT: "Unity-iPhone.xcodeproj"
         XCODE_WORKSPACE: "Unity-iPhone.xcworkspace"
         XCODE_SCHEME: "Unity-iPhone"
-        BUNDLE_ID: "om.gmbxpth.app499"
+        BUNDLE_ID: "com.gmbxpth.app499"
         APP_STORE_APPLE_ID: 6738699230
       cocoapods: default
     scripts:
