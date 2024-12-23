@@ -3,7 +3,7 @@ workflows:
     name: Unity iOS Workflow
     max_build_duration: 120
     integrations:
-      app_store_connect: KkAPP499
+      app_store_connect: APP499newKey
     environment:
       unity: 2022.3.19f1
       ios_signing:
